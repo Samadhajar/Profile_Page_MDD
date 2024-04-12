@@ -1,0 +1,126 @@
+/* Write some CSS below */
+body{ 
+    background: linear-gradient(to bottom, #23B7D0, #7A33E6);
+    color : hwb(0 45% 54%) ;
+    font-size: 18px;
+    font-family:"lora", serif;
+    text-align:center;
+}
+
+h1,h2,H3,H4{
+    font-family:"roboto", serif ;
+    color: darkslategrey ;
+    Font-size: 32px;
+    font-weight: 600;
+}
+h1{
+    text-align: left;
+    background: -webkit-gradient(linear, left top, left bottom, from(#08C2CC), to(#753CE5));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+div {
+    background-color: white;
+    box-shadow: 0 10px 20px rgba(0;0;0;1);
+    padding: 43px;
+    margin: 40px auto; 
+    border-radius: 5px; 
+    width: 600px
+}
+
+img {
+    border-radius: 50%;
+    height: 150px;
+    object-fit: cover;
+    box-shadow:8px 8px 10px 0 rgba(0,0,0,0.5);
+
+}
+
+a{
+text-decoration: none;
+}
+a{
+    Color : white; 
+    background-color: #753CE5;
+    border-radius: 2px;
+    padding: 12px 20px;
+    margin: 5% 20px;
+}
+
+a:hover {
+    background-color: gray;
+}
+
+h1 {
+    animation-duration: 2s;
+    animation-name: slidein;
+    animation: 3s infinite alternate slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 65%;
+      width: 50%;
+    }
+  
+    to {
+      margin-right: 50%;
+      width: 50%;
+    }
+  }
+
+  /* Class */
+
+.list-inline li {
+display: inline;
+  }
+
+.logo {
+border-radius:0%;
+height: 80px;
+object-fit: cover;
+box-shadow: none;
+text-align:right;
+}
+
+hr {
+    border:#23B7D0;
+    border-top: 3px double #23B7D0;
+    color:#08C2CC;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+  }
+  
+hr::after {
+    background: #fff;
+    content: 'Feb 2021 - Jun 2023'; 
+    padding: 0 4px;
+    position: relative;
+    top: -13px;
+    font-size:medium;
+    color: #753CE5;
+    font-style: italic
+  }
+
+.text-job {
+    text-align: left;
+    Font-size: 18px;
+    font-weight: 50;
+} 
+
+ /* Id */
+
+#text-client {
+    Font-size: 14px;
+    text-align: left;
+    font-variant: small-caps;
+} 
+
+#text-alert{
+font-weight: bold;
+font-style: italic;
+}
+ 
